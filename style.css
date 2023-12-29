@@ -1,1 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
 
+.navigation {
+    background: #fff;
+    border-bottom: 1px solid #fcc;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f8a;
+}
+
+header {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #fee;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 1em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #fee;
+    border-top: 1px solid #fcc;
+}
